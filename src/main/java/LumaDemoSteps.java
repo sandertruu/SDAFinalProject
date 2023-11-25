@@ -80,4 +80,79 @@ public class LumaDemoSteps {
         driver.close();
     }
 
+    @And("User changes quantity to {int}")
+    public void userChangesQuantityTo(String arg0) {
+    }
+
+    @And("A message is shown {string}")
+    public void aMessageIsShown(String arg0) {
+    }
+
+    @Given("User is on Luma Demo page Men's Tees section with {int} item in cart")
+    public void userIsOnLumaDemoPageMenSTeesSectionWithItemInCart(int arg0) {
+    }
+
+    @When("User opens the cart from the icon")
+    public void userOpensTheCartFromTheIcon() {
+    }
+
+    @And("User changes quantity from icon to {int}")
+    public void userChangesQuantityFromIconTo(String arg0) {
+    }
+
+    @And("User clicks Update button")
+    public void userClicks(String arg0) {
+    }
+
+    @Then("The quantity is saved as {string}")
+    public void theQuantityIsSavedAs(String arg0) {
+    }
+
+    @And("Subtotal is tripled")
+    public void subtotalIsTripled() {
+    }
+
+    @Then("Update button is not visible")
+    public void updateButtonIsNotVisible() {
+    }
+
+    @And("User clicks the thrash can button")
+    public void userClicksTheThrashCanButton() {
+    }
+
+    @And("User clicks OK on the pop up")
+    public void userClicksOKOnThePopUp() {
+    }
+
+    @Then("Item is removed from the cart")
+    public void itemIsRemovedFromTheCart() {
+    }
+
+    @And("User clicks View and edit cart button")
+    public void userClicksViewAndEditCartButton() {
+    }
+
+    @And("User clicks the pencil icon")
+    public void userClicksThePencilIcon() {
+    }
+
+    @And("User changes colour to blue")
+    public void userChangesColourToBlue() {
+    }
+
+    @And("User changes size to L")
+    public void userChangesSizeToL() {
+    }
+
+    @And("User clicks Update cart")
+    public void userClicksUpdateCart() {
+    }
+
+    @Then("A message is shown")
+    public void aMessageIsShown() {
+    }
+
+    @And("Properties are updated")
+    public void propertiesAreUpdated() {
+    }
 }
